@@ -34,3 +34,5 @@ jobs:
           heroku_app_name: "pokedex-fullstack-jjsierra"
           heroku_email: "juanjosesierram@gmail.com"
           healthcheck: "https://pokedex-fullstack-jjsierra.herokuapp.com/health"
+          checkstring: "ok"
+          rollbackonhealthcheckfailed: true
